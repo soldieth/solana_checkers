@@ -12,7 +12,7 @@ def check_wallets(wallets, chain):
             print(f"{wallet} - {int(r.json()['amount']) / 1000000}")
             oneEligible = True
     if not oneEligible:
-        print(f"No {chain} wallets eligible")
+        print(f"No {chain} wallets eligible.")
 
 
 if __name__ == '__main__':
