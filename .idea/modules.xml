@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pyth_airdrop.iml" filepath="$PROJECT_DIR$/.idea/pyth_airdrop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/solana_checkers.iml" filepath="$PROJECT_DIR$/.idea/solana_checkers.iml" />
     </modules>
   </component>
 </project>
