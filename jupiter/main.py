@@ -16,6 +16,7 @@ def check_jup(wallet):
         return [wallet, r['tokens_final']]
     except requests.exceptions.JSONDecodeError:
         print(f"No tokens for {wallet}")
+        return [wallet, '0']
 
 
 if __name__ == '__main__':
